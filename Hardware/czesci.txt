@@ -1,0 +1,134 @@
+Partlist
+
+Exported from CubeX2000.brd at 22.04.2018 16:11
+
+EAGLE Version 7.5.0 Copyright (c) 1988-2015 CadSoft
+
+Assembly variant: 
+
+Part      Value          Package    Library        Position (mm)         Orientation
+
+AVR-ISP                  ML10       con-harting-ml (28.829 17.907)       R180
+C1        27pf           C1206      resistor       (46.863 17.145)       MR270
+C2        27pf           C1206      resistor       (46.863 21.971)       MR90
+C3        100nf          C1206      resistor       (66.421 8.128)        MR90
+C4        100nf          C1206      resistor       (59.055 6.858)        MR180
+C5        1uF            C1206      resistor       (19.05 9.398)         MR0
+C6        1uF            C1206      resistor       (17.78 12.954)        MR90
+C7        1uF            C1206      resistor       (22.733 10.668)       MR90
+C8        100nf          C1206      resistor       (2.54 52.324)         MR180
+C9        100nf          C1206      resistor       (2.54 54.864)         MR180
+C10       100nf          C1206      resistor       (2.54 57.404)         MR180
+C11       100nf          C1206      resistor       (2.54 59.944)         MR180
+C12       100nf          C1206      resistor       (2.54 39.624)         MR180
+C13       100nf          C1206      resistor       (2.54 42.164)         MR180
+C14       100nf          C1206      resistor       (2.54 44.704)         MR180
+C15       100nf          C1206      resistor       (2.54 47.244)         MR180
+C16       100nf          C1206      resistor       (2.54 49.784)         MR180
+C17       1uF            C1206      resistor       (2.286 73.279)        MR180
+C18       10uF           C1206      resistor       (2.286 76.073)        MR180
+C19       100nf          C1206      resistor       (40.259 23.622)       MR180
+IC1       MEGA32-A       TQFP44     atmel          (58.87539375 15.568390625) MR180
+IC2       74HC595D       SO16       74xx-eu        (19.304 61.849)       MR180
+IC3       74HC595D       SO16       74xx-eu        (42.164 61.849)       MR180
+IC4       74HC595D       SO16       74xx-eu        (65.024 61.849)       MR180
+IC5       74HC595D       SO16       74xx-eu        (87.884 61.849)       MR180
+IC6       74HC595D       SO16       74xx-eu        (86.995 35.56)        MR180
+IC7       74HC595D       SO16       74xx-eu        (64.135 35.56)        MR180
+IC8       74HC595D       SO16       74xx-eu        (41.275 35.56)        MR180
+IC9       74HC595D       SO16       74xx-eu        (18.415 35.56)        MR180
+LAYER1    22-23-2081     22-23-2081 con-molex      (19.304 75.438)       R0
+LAYER2    22-23-2081     22-23-2081 con-molex      (42.164 75.438)       R0
+LAYER3    22-23-2081     22-23-2081 con-molex      (65.024 75.438)       R0
+LAYER4    22-23-2081     22-23-2081 con-molex      (87.884 75.438)       R0
+LAYER5    22-23-2081     22-23-2081 con-molex      (86.995 49.657)       R0
+LAYER6    22-23-2081     22-23-2081 con-molex      (64.135 49.657)       R0
+LAYER7    22-23-2081     22-23-2081 con-molex      (41.275 49.657)       R0
+LAYER8    22-23-2081     22-23-2081 con-molex      (18.415 49.657)       R0
+LAYERS    22-23-2081     22-23-2081 con-molex      (89.916 13.716)       R270
+LED1                     1206       led            (2.667 17.399)        MR0
+LED2                     1206       led            (2.667 20.066)        MR0
+POWER-IN                 JP1        jumper         (2.54 69.85)          R270
+POWER-LED                1206       led            (2.286 78.486)        MR0
+Q1        16MHz          HC49U-V    crystal        (49.149 19.812)       R270
+R1        100            R1206      resistor       (10.414 70.739)       MR90
+R2        100            R1206      resistor       (12.954 70.739)       MR90
+R3        100            R1206      resistor       (15.494 70.739)       MR90
+R4        100            R1206      resistor       (18.034 70.739)       MR90
+R5        100            R1206      resistor       (20.574 70.739)       MR90
+R6        100            R1206      resistor       (23.114 70.739)       MR90
+R7        100            R1206      resistor       (25.654 70.739)       MR90
+R8        100            R1206      resistor       (28.194 70.739)       MR90
+R9        100            R1206      resistor       (33.274 70.739)       MR90
+R10       100            R1206      resistor       (35.814 70.739)       MR90
+R11       100            R1206      resistor       (38.354 70.739)       MR90
+R12       100            R1206      resistor       (40.894 70.739)       MR90
+R13       100            R1206      resistor       (43.434 70.739)       MR90
+R14       100            R1206      resistor       (45.974 70.739)       MR90
+R15       100            R1206      resistor       (48.514 70.739)       MR90
+R16       100            R1206      resistor       (51.054 70.739)       MR90
+R17       100            R1206      resistor       (56.134 70.739)       MR90
+R18       100            R1206      resistor       (58.674 70.739)       MR90
+R19       100            R1206      resistor       (61.214 70.739)       MR90
+R20       100            R1206      resistor       (63.754 70.739)       MR90
+R21       100            R1206      resistor       (66.294 70.739)       MR90
+R22       100            R1206      resistor       (68.834 70.739)       MR90
+R23       100            R1206      resistor       (71.374 70.739)       MR90
+R24       100            R1206      resistor       (73.914 70.739)       MR90
+R25       100            R1206      resistor       (78.994 70.739)       MR90
+R26       100            R1206      resistor       (81.534 70.739)       MR90
+R27       100            R1206      resistor       (84.074 70.739)       MR90
+R28       100            R1206      resistor       (86.614 70.739)       MR90
+R29       100            R1206      resistor       (89.154 70.739)       MR90
+R30       100            R1206      resistor       (91.694 70.739)       MR90
+R31       100            R1206      resistor       (94.234 70.739)       MR90
+R32       100            R1206      resistor       (96.774 70.739)       MR90
+R33       100            R1206      resistor       (78.105 44.45)        MR90
+R34       100            R1206      resistor       (80.645 44.45)        MR90
+R35       100            R1206      resistor       (83.185 44.45)        MR90
+R36       100            R1206      resistor       (85.725 44.45)        MR90
+R37       100            R1206      resistor       (88.265 44.45)        MR90
+R38       100            R1206      resistor       (90.805 44.45)        MR90
+R39       100            R1206      resistor       (93.345 44.45)        MR90
+R40       100            R1206      resistor       (95.885 44.45)        MR90
+R41       100            R1206      resistor       (55.245 44.45)        MR90
+R42       100            R1206      resistor       (57.785 44.45)        MR90
+R43       100            R1206      resistor       (60.325 44.45)        MR90
+R44       100            R1206      resistor       (62.865 44.45)        MR90
+R45       100            R1206      resistor       (65.405 44.45)        MR90
+R46       100            R1206      resistor       (67.945 44.45)        MR90
+R47       100            R1206      resistor       (70.485 44.45)        MR90
+R48       100            R1206      resistor       (73.025 44.45)        MR90
+R49       100            R1206      resistor       (32.385 44.45)        MR90
+R50       100            R1206      resistor       (34.925 44.45)        MR90
+R51       100            R1206      resistor       (37.465 44.45)        MR90
+R52       100            R1206      resistor       (40.005 44.45)        MR90
+R53       100            R1206      resistor       (42.545 44.45)        MR90
+R54       100            R1206      resistor       (45.085 44.45)        MR90
+R55       100            R1206      resistor       (47.625 44.45)        MR90
+R56       100            R1206      resistor       (50.165 44.45)        MR90
+R57       100            R1206      resistor       (9.525 44.45)         MR90
+R58       100            R1206      resistor       (12.065 44.45)        MR90
+R59       100            R1206      resistor       (14.605 44.45)        MR90
+R60       100            R1206      resistor       (17.145 44.45)        MR90
+R61       100            R1206      resistor       (19.685 44.45)        MR90
+R62       100            R1206      resistor       (22.225 44.45)        MR90
+R63       100            R1206      resistor       (24.765 44.45)        MR90
+R64       100            R1206      resistor       (27.305 44.45)        MR90
+R65       10k            R1206      resistor       (2.667 66.294)        MR180
+R66       470            R1206      resistor       (5.207 62.992)        MR180
+R67       10K            R1206      resistor       (32.766 12.065)       MR0
+R68       330            R1206      resistor       (7.874 17.526)        MR0
+R69       330            R1206      resistor       (7.874 20.066)        MR0
+R70       100            R1206      resistor       (6.223 77.216)        MR90
+RESET                    B3F-10XX   switch-omron   (34.671 6.985)        R0
+RS232                    MA04-1     con-lstb       (2.159 10.033)        R270
+U$1       IRLML0030      SOT23      transistor-fet (71.501 10.033)       MR180
+U$2       IRLML0030      SOT23      transistor-fet (79.248 10.033)       MR180
+U$3       IRLML0030      SOT23      transistor-fet (83.185 10.033)       MR180
+U$4       IRLML0030      SOT23      transistor-fet (68.326 13.462)       MR180
+U$5       IRLML0030      SOT23      transistor-fet (75.311 10.033)       MR180
+U$6       IRLML0030      SOT23      transistor-fet (82.296 14.224)       MR90
+U$7       IRLML0030      SOT23      transistor-fet (82.169 21.844)       MR90
+U$8       IRLML0030      SOT23      transistor-fet (82.296 18.034)       MR90
+U$9       MAX232D        SO16       maxim          (10.922 9.779)        MR270
