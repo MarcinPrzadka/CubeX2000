@@ -1,0 +1,10 @@
+C:\Users\Marcin\source\repos\LedCube\LedCube\bin\Debug\LedCube.exe.config
+C:\Users\Marcin\source\repos\LedCube\LedCube\bin\Debug\LedCube.exe
+C:\Users\Marcin\source\repos\LedCube\LedCube\bin\Debug\LedCube.pdb
+C:\Users\Marcin\source\repos\LedCube\LedCube\obj\Debug\LedCube.csprojAssemblyReference.cache
+C:\Users\Marcin\source\repos\LedCube\LedCube\obj\Debug\LedCube.Properties.Resources.resources
+C:\Users\Marcin\source\repos\LedCube\LedCube\obj\Debug\LedCube.csproj.GenerateResource.cache
+C:\Users\Marcin\source\repos\LedCube\LedCube\obj\Debug\LedCube.csproj.CoreCompileInputs.cache
+C:\Users\Marcin\source\repos\LedCube\LedCube\obj\Debug\LedCube.exe
+C:\Users\Marcin\source\repos\LedCube\LedCube\obj\Debug\LedCube.pdb
+C:\Users\Marcin\source\repos\LedCube\LedCube\obj\Debug\LedCube.CubeX2000.resources
