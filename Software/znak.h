@@ -102,6 +102,35 @@ void znak(char data)
 
 	int czas=1;
 	int petla = 7;
+
+	if (data == '0') {
+
+	for(int p=0;p<8;p++)
+	{
+		for(int i=0;i<8;i++)
+		{
+			for(int k=0;k<8;k++)
+			{
+				if(zero[i][k] != 0x00) zero[i][k]=1<<p;
+			}
+		}
+
+		for(int ii=0;ii<petla;ii++)
+		{
+			for(int i=0;i<8;i++)
+			{
+				for(int k=0;k<8;k++)
+				{
+					SPI_send_no_latch(zero[i][k]);
+				}
+				zatrzask();
+				PORTC = 1<<i;
+				_delay_ms(czas);
+			}
+		}
+	
+	}}
+
 	if (data == '1') {
 
 	for(int p=0;p<8;p++)
@@ -185,5 +214,178 @@ void znak(char data)
 		}
 	
 	}}
+
+	if (data == '4') {
+
+	for(int p=0;p<8;p++)
+	{
+		for(int i=0;i<8;i++)
+		{
+			for(int k=0;k<8;k++)
+			{
+				if(cztery[i][k] != 0x00) cztery[i][k]=1<<p;
+			}
+		}
+
+		for(int ii=0;ii<petla;ii++)
+		{
+			for(int i=0;i<8;i++)
+			{
+				for(int k=0;k<8;k++)
+				{
+					SPI_send_no_latch(cztery[i][k]);
+				}
+				zatrzask();
+				PORTC = 1<<i;
+				_delay_ms(czas);
+			}
+		}
+	
+	}}
+
+	if (data == '5') {
+
+	for(int p=0;p<8;p++)
+	{
+		for(int i=0;i<8;i++)
+		{
+			for(int k=0;k<8;k++)
+			{
+				if(piec[i][k] != 0x00) piec[i][k]=1<<p;
+			}
+		}
+
+		for(int ii=0;ii<petla;ii++)
+		{
+			for(int i=0;i<8;i++)
+			{
+				for(int k=0;k<8;k++)
+				{
+					SPI_send_no_latch(piec[i][k]);
+				}
+				zatrzask();
+				PORTC = 1<<i;
+				_delay_ms(czas);
+			}
+		}
+	
+	}}
+
+	if (data == '6') {
+
+	for(int p=0;p<8;p++)
+	{
+		for(int i=0;i<8;i++)
+		{
+			for(int k=0;k<8;k++)
+			{
+				if(szesc[i][k] != 0x00) szesc[i][k]=1<<p;
+			}
+		}
+
+		for(int ii=0;ii<petla;ii++)
+		{
+			for(int i=0;i<8;i++)
+			{
+				for(int k=0;k<8;k++)
+				{
+					SPI_send_no_latch(szesc[i][k]);
+				}
+				zatrzask();
+				PORTC = 1<<i;
+				_delay_ms(czas);
+			}
+		}
+	
+	}}
+
+	if (data == '7') {
+
+	for(int p=0;p<8;p++)
+	{
+		for(int i=0;i<8;i++)
+		{
+			for(int k=0;k<8;k++)
+			{
+				if(siedem[i][k] != 0x00) siedem[i][k]=1<<p;
+			}
+		}
+
+		for(int ii=0;ii<petla;ii++)
+		{
+			for(int i=0;i<8;i++)
+			{
+				for(int k=0;k<8;k++)
+				{
+					SPI_send_no_latch(siedem[i][k]);
+				}
+				zatrzask();
+				PORTC = 1<<i;
+				_delay_ms(czas);
+			}
+		}
+	
+	}}
+
+	if (data == '8') {
+
+	for(int p=0;p<8;p++)
+	{
+		for(int i=0;i<8;i++)
+		{
+			for(int k=0;k<8;k++)
+			{
+				if(osiem[i][k] != 0x00) osiem[i][k]=1<<p;
+			}
+		}
+
+		for(int ii=0;ii<petla;ii++)
+		{
+			for(int i=0;i<8;i++)
+			{
+				for(int k=0;k<8;k++)
+				{
+					SPI_send_no_latch(osiem[i][k]);
+				}
+				zatrzask();
+				PORTC = 1<<i;
+				_delay_ms(czas);
+			}
+		}
+	
+	}}
+
+	if (data == '9') {
+
+	for(int p=0;p<8;p++)
+	{
+		for(int i=0;i<8;i++)
+		{
+			for(int k=0;k<8;k++)
+			{
+				if(dziewiec[i][k] != 0x00) dziewiec[i][k]=1<<p;
+			}
+		}
+
+		for(int ii=0;ii<petla;ii++)
+		{
+			for(int i=0;i<8;i++)
+			{
+				for(int k=0;k<8;k++)
+				{
+					SPI_send_no_latch(dziewiec[i][k]);
+				}
+				zatrzask();
+				PORTC = 1<<i;
+				_delay_ms(czas);
+			}
+		}
+	
+	}}
+
+
+
+
+
 
 }
